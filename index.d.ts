@@ -9,6 +9,5 @@ export type NRPluginConfig = {
 
 declare let NRApolloPlugin: ApolloServerPlugin;
 
-export function createPlugin(config: NRPluginConfig): ApolloServerPlugin;
+export default function createPlugin(config: NRPluginConfig): ApolloServerPlugin;
 
-export default NRApolloPlugin;
